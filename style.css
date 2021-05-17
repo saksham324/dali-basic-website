@@ -1,0 +1,65 @@
+.navbar-brand,
+.navbar-nav a{
+  font-family: 'IBM Plex Mono', san-serif;
+}
+
+.navbar-nav a:hover{
+  text-decoration: underline;
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 900px;
+    }
+}
+
+.navbar{
+    width:100% !important;
+    margin:0px auto;
+}
+
+.thumb-post img { /* Do not scale the image */
+  object-position: center; /* Center the image within the element */
+  max-width: 450px;
+  max-height: 450px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.text{
+  font-family: 'IBM Plex Mono', sans-serif;
+}
+
+.name{
+  color: #0779e4;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    opacity: 0.48;
+    z-index: -1;
+}
+
+
+a{
+  z-index: 9999;
+}
+
+footer{
+  border-top: 1px solid #e8e8e8;
+  padding: 30px 0;
+  font-size: 10px;
+  position: absolute;
+  bottom: 10;
+  width: 100%;
+  height: 50px;
+}
+
+.nyc:after{
+    content: url(/images/arrow.png);
+}
